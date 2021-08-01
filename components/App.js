@@ -6,10 +6,10 @@ import {StyleSheet, View, FlatList} from 'react-native';
 // local components
 import Header from './Header';
 import ListItem from './ListItem';
+import AddItem from './AddItem';
 
 // local utils
 import {generateItem} from '../utils/generateItem';
-import AddItem from './AddItem';
 
 const App = () => {
   const [items, setItems] = useState([]);

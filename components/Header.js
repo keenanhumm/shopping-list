@@ -1,4 +1,6 @@
 import React from 'react';
+
+// rn components
 import {Text, StyleSheet, View} from 'react-native';
 
 const Header = ({title}) => {
